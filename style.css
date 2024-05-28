@@ -1,0 +1,577 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(192, 184, 184);
+    position: fixed;
+    width: 1300px;
+    margin-left: 0;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-right: 100px;
+  
+   
+}
+.navbar li a{
+    padding: 30px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 22px;
+    color: white;
+    font-weight: bolder;   
+    
+    
+}
+.navbar li a:hover{
+color:rgb(0, 195, 255);
+}
+.logo img{
+    width: 150px;
+    padding-left: 50px;
+}
+
+.navbar img{
+    padding: 0px 20px;
+
+}
+
+.navbar button{
+    border-color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(192, 184, 184);
+}
+.navbar button:hover{
+    background-color: rgb(0, 195, 255);
+}
+
+/* ----------------------home section----------------- */
+.home-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(9, 9, 59);
+    height: 800px;
+}
+
+.home-left h1{
+font-size: 40px;
+font-weight: bolder;
+color: white;
+padding-top: 160px;
+font-family: monospace;
+padding-left: 40px;
+}
+.home-left p{
+font-size: 18px;
+font-weight: lighter;
+color: white;
+padding-top: 20px;
+font-family: monospace;
+padding-left: 40px;
+}
+
+.home-left button{
+    background-color: rgb(0, 195, 255);
+    padding: 10px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.right-home img{
+    width: 600px;
+    padding-top: 50px;
+}
+
+/* -------------------------our courses--------------------- */
+
+.main-our{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    gap: 20px;
+    padding: 130px;
+}
+
+.card1 img{
+    width: 200px;
+    margin-left: 60px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.card1 p{
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.card2 p{
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.card3 p{
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.card4 p{
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.card5 p{
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.card6 p{
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.card7 p{
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.card8 p{
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.card2 img{
+    width: 200px;
+    margin-left: 60px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.card3 img{
+    width: 200px;
+    margin-left: 60px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.card4 img{
+    width: 200px;
+    margin-left: 60px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.card5 img{
+    width: 200px;
+    margin-left: 60px;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.card6 img{
+    width: 200px;
+    margin-left: 60px;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.card7 img{
+    width: 200px;
+    margin-left: 60px;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.card8 img{
+    width: 200px;
+    margin-left: 60px;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.ources h1{
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* -----------------our impact---------------- */
+.h1-our{
+    font-family: sans-serif;
+    font-size: 90px;
+    font-weight:lighter;
+    text-align: center;
+}
+.our-impact{
+    display: flex;
+    justify-content: space-between;
+}
+.our-icons{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 10px;
+    margin-right: 140px;
+}
+.left-our img{
+    width: 400px;
+    height: 450px;
+    margin-left: 120px;
+    border: none;
+    border-radius: 10px;
+}
+.schol{
+    background-color: #8892B04A;
+    border: none;
+    padding: 2px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.schol h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.schol p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -30px;
+}
+.schol img{
+    width: 80px;
+}
+.campus{
+    background-color: #8892B04A;
+    border: none;
+    padding: 2px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.campus h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.campus p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -30px;
+}
+.campus img{
+    width: 80px;
+}
+.bootcamp{
+    background-color: #8892B04A;
+    border: none;
+    padding: 2px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.bootcamp h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.bootcamp p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -30px;
+}
+.bootcamp img{
+    width: 80px;
+}
+.cal{
+    background-color: #8892B04A;
+    border: none;
+    padding: 2px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+.cal h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.cal p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -30px;
+}
+.cal img{
+    width: 80px;
+}
+/* --------------benefits from our school--------------- */
+
+.benefits h1{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.benefits p{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+.ben-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ben1 img{
+    width: 380px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.ben2 img{
+    width: 380px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.ben3 img{
+    width: 380px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+/* --------------- hear from our alumni---------------------- */
+.main-hear{
+    background-color: #8892B04A;
+}
+.main-hear h1{
+    padding-top: 120px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.hear{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.name-dev{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-dev img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.img-dev1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.img-dev2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.hear1{
+    background-color: white;
+    box-sizing: border-box;
+    color: black;
+    line-height: 38px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-left: 40px;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.hear2{
+    background-color: white;
+    box-sizing: border-box;
+    color: black;
+    line-height: 38px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-left: 40px;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-left: -35px;
+
+}
+
+.hear3{
+    background-color: white;
+    box-sizing: border-box;
+    color: black;
+    line-height: 38px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-left: 40px;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 60px;
+
+}
+.main-mages{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8892B04A;
+}
+
+.name-dev2 .img-dev img{
+    margin-left: -90px;
+}
+.name-dev2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dev-content h2{
+    font-family: monospace;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.dev-content h6{
+    font-family: monospace;
+    font-weight: lighter;
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+.name-dev1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dev-content h2{
+    font-family: monospace;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.dev-content h6{
+    font-family: monospace;
+    font-weight: lighter;
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+/* -------------------fooooter----------------------- */
+.main-footer{
+    background-color: rgb(9, 9, 59);
+    margin-top: 160px;
+    padding-left: 60px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.logo-footer img{
+    width: 200px;
+}
+.logo-footer p{
+    color: white;
+    font-family: monospace;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.contact-footer h4{
+    color: white;
+    padding-left: 50px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.contact-footer ul{
+    list-style-type: none;
+}
+
+.contact-footer li{
+    color: white;
+    padding-right: 150px;
+    font-size: 15px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.quick-links h4{
+    color: white;
+    padding-right: 30px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+.quick-links ul{
+    list-style-type: none;
+}
+
+.quick-links li{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    font-family: monospace;
+    padding-right: 90px;
+}
+
+.socail {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 70px;
+}
+
+.fb-icon img{
+    width: 50px;
+    color: white;
+}
+.ins-dev img{
+    width: 50px;
+    color: white;
+}
+.twt-dev img{
+    width: 50px;
+    color: white;
+}
+
+hr{
+    color: white;
+    margin: 20px 80px;
+}
+.main-footer p{
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    margin-top: 15px;
+    font-family: monospace;
+    padding-bottom: 20px;
+}
